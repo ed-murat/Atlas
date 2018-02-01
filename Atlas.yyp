@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00b81885-a3a0-4428-ab90-87e4d2ad9786",
+            "Value": {
+                "id": "ac4a7ff2-f7e9-44f6-be9f-43824f2ac5e8",
+                "resourcePath": "scripts\\getSecond\\getSecond.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0ade38d7-28ff-4699-8453-c639779258a7",
             "Value": {
                 "id": "dc66c898-c0d0-4356-80b5-345111e36b36",
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "67840a79-2564-439e-a1dc-edd4389f66a1",
+            "Value": {
+                "id": "b2f8986b-8e61-42fa-8da2-1197766eb613",
+                "resourcePath": "views\\67840a79-2564-439e-a1dc-edd4389f66a1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "6b13a60c-286c-4480-a903-1be7f7013ea6",
             "Value": {
                 "id": "03994ad0-eb53-4e52-ba9f-715ab157756c",
@@ -263,6 +279,14 @@
             }
         },
         {
+            "Key": "85b3c27a-63f5-4e19-8538-9b54afa7e13c",
+            "Value": {
+                "id": "e504bc8a-daa1-45e2-9959-411702fcab68",
+                "resourcePath": "scripts\\isLeapYear\\isLeapYear.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "87600fcb-3544-4c54-b98a-c6273c6e3bcc",
             "Value": {
                 "id": "59638b34-f54d-493c-a122-743a3ee71f70",
@@ -275,6 +299,14 @@
             "Value": {
                 "id": "1152d5a2-018f-4ca6-9a3b-3e0894e5c693",
                 "resourcePath": "scripts\\listGet\\listGet.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "95ecc942-7076-464b-be34-10d9ed23355f",
+            "Value": {
+                "id": "afbe00fe-0bf2-4f47-b26a-7eab31d01388",
+                "resourcePath": "scripts\\getHour\\getHour.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -335,6 +367,14 @@
             }
         },
         {
+            "Key": "b7a68796-3a76-465e-97da-925af37c3cee",
+            "Value": {
+                "id": "6adc3f5a-d4fc-4298-ae0d-9afe4f54d8b2",
+                "resourcePath": "scripts\\getWeekday\\getWeekday.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ca6d2c6a-223a-4ab9-ad2d-91a0f027a0d6",
             "Value": {
                 "id": "41b4e6ba-dae6-403d-995a-7b97ff966b73",
@@ -391,6 +431,22 @@
             }
         },
         {
+            "Key": "d3b65ecf-b629-4249-b55a-9432005dc48f",
+            "Value": {
+                "id": "857535d1-5281-4a1e-ad04-4967dcd80e33",
+                "resourcePath": "scripts\\getMinute\\getMinute.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d4d045c6-d142-4003-a382-cec335992b64",
+            "Value": {
+                "id": "7dff5723-ddbd-425f-8602-a5ad306d9ea9",
+                "resourcePath": "scripts\\getMonth\\getMonth.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d51b8ee3-be45-480c-b07f-f34419b854f4",
             "Value": {
                 "id": "bf8ba48b-1985-44f5-a1bd-3a249b0834b9",
@@ -415,10 +471,34 @@
             }
         },
         {
+            "Key": "e7634a35-2560-4db9-a0ef-7ef4e8a99e09",
+            "Value": {
+                "id": "c9e0756c-3ef1-4979-804d-22668cb68dd9",
+                "resourcePath": "scripts\\getDayNumber\\getDayNumber.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e78e5f03-1fc7-4659-9c4e-4bd297cbf56c",
+            "Value": {
+                "id": "ef249e57-ead3-41e2-a173-324d782fc2ab",
+                "resourcePath": "scripts\\getYear\\getYear.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e8d38d1c-72cf-4cf1-b186-04d0a88c7406",
             "Value": {
                 "id": "89907c85-0b68-4f83-ab5f-68d1c1d3b438",
                 "resourcePath": "scripts\\listClone\\listClone.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e93c392a-f7cc-4ed4-9c3e-c3fe6c1564a7",
+            "Value": {
+                "id": "85c73cb1-d885-49e3-a42d-307debd0f555",
+                "resourcePath": "scripts\\getDay\\getDay.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -484,7 +564,16 @@
         "82a079df-d399-432d-92ae-dc79c605f704",
         "52d66680-80c4-4ce9-96e7-75d8ad4fb451",
         "ca6d2c6a-223a-4ab9-ad2d-91a0f027a0d6",
-        "7b26d3ab-9f3a-4284-8fab-8b4f0e6013a3"
+        "7b26d3ab-9f3a-4284-8fab-8b4f0e6013a3",
+        "e7634a35-2560-4db9-a0ef-7ef4e8a99e09",
+        "85b3c27a-63f5-4e19-8538-9b54afa7e13c",
+        "e78e5f03-1fc7-4659-9c4e-4bd297cbf56c",
+        "d4d045c6-d142-4003-a382-cec335992b64",
+        "e93c392a-f7cc-4ed4-9c3e-c3fe6c1564a7",
+        "b7a68796-3a76-465e-97da-925af37c3cee",
+        "95ecc942-7076-464b-be34-10d9ed23355f",
+        "d3b65ecf-b629-4249-b55a-9432005dc48f",
+        "00b81885-a3a0-4428-ab90-87e4d2ad9786"
     ],
     "tutorial": ""
 }
