@@ -1,19 +1,20 @@
 
 {
-    "name": "room0",
+    "name": "roomTest",
     "id": "71bd732f-c0d8-4233-a21e-19a15d1a11ef",
     "creationCodeFile": "",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-
+        "521a4ec7-0e0b-4f69-a7f7-f472a836d3a1",
+        "9ed9f04c-caf2-42b2-824e-a687d42cb05e"
     ],
     "IsDnD": false,
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Instances",
+            "name": "Controller",
             "id": "998331d6-b69b-4c7a-a491-1bb8341e4530",
             "depth": 0,
             "grid_x": 32,
@@ -25,7 +26,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_5875FA72","id": "521a4ec7-0e0b-4f69-a7f7-f472a836d3a1","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5875FA72","objId": "f279bcf5-6aa6-4f9d-bae5-56c181120dba","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": -32,"y": 0},
+{"name": "inst_60D8D35","id": "9ed9f04c-caf2-42b2-824e-a687d42cb05e","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_60D8D35","objId": "b0fd6e39-80e0-4cc9-81a6-3f363eb0ae0d","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": -64,"y": 0}
             ],
             "layers": [
 
@@ -43,14 +45,14 @@
             "id": "30ec5541-b852-4ee1-a416-ae0495fc8692",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4278190080 },
+            "colour": { "Value": 4294967295 },
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
-            "hspeed": 0,
-            "htiled": false,
+            "hspeed": 3,
+            "htiled": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -62,13 +64,13 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "00000000-0000-0000-0000-000000000000",
+            "spriteId": "2dc96e3a-5557-4658-b755-36c98928558e",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
             "visible": true,
             "vspeed": 0,
-            "vtiled": false,
+            "vtiled": true,
             "x": 0,
             "y": 0
         }
@@ -87,12 +89,12 @@
     },
     "roomSettings":     {
         "id": "4d82a0ba-10b4-45b8-a55e-d3a0faad493d",
-        "Height": 768,
+        "Height": 600,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 1024
+        "Width": 800
     },
     "mvc": "1.0",
     "views": [
