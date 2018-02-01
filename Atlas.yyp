@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "9b752d49-3bd3-491e-b44a-4e04546d3de0",
+            "Value": {
+                "id": "24f7d885-6a77-48cc-b016-ab1741079ef0",
+                "resourcePath": "scripts\\isBool\\isBool.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "35eb51ed-edc2-402b-b8a7-af10960d58e2",
@@ -439,6 +447,14 @@
             }
         },
         {
+            "Key": "d48aa561-3628-46ac-92ce-0defb2adfce0",
+            "Value": {
+                "id": "55f918de-effc-451f-8181-b8a9da89016b",
+                "resourcePath": "scripts\\isArray\\isArray.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d4d045c6-d142-4003-a382-cec335992b64",
             "Value": {
                 "id": "7dff5723-ddbd-425f-8602-a5ad306d9ea9",
@@ -538,6 +554,8 @@
     "script_order": [
         "66dea877-c93a-44c0-b88b-31f8d789b358",
         "f5cbf161-7d5e-454c-9b94-f29ea17121c7",
+        "9b752d49-3bd3-491e-b44a-4e04546d3de0",
+        "d48aa561-3628-46ac-92ce-0defb2adfce0",
         "cf131ea7-2ace-41c4-823d-f6bd21d84649",
         "caf13fd7-830f-493e-baa1-97e07a5a24f7",
         "e8d38d1c-72cf-4cf1-b186-04d0a88c7406",
