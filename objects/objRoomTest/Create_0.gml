@@ -1,2 +1,1 @@
-var width = global.WINDOW_WIDTH;
-var height = global.WINDOW_HEIGHT;
+gamepad_set_axis_deadzone(0,global.GP_DEADZONE);

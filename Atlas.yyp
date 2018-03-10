@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "851877d4-6cf5-4ba7-bc4d-a98f32b94dd4",
+            "Value": {
+                "id": "154a5682-90a4-4597-bef6-78f3c33e285f",
+                "resourcePath": "fonts\\fntMontserrat16\\fntMontserrat16.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "85b3c27a-63f5-4e19-8538-9b54afa7e13c",
             "Value": {
                 "id": "e504bc8a-daa1-45e2-9959-411702fcab68",
