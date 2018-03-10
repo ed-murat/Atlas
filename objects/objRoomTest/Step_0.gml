@@ -24,3 +24,7 @@ inputButtonRT = gamepad_button_check(0,gp_shoulderrb);
 
 inputStart = gamepad_button_check(0,gp_start);
 inputSelect = gamepad_button_check(0,gp_select);
+
+if(inputButtonA or inputButtonB or inputButtonX or inputButtonY) {
+	shake(0,0.1);
+}
