@@ -1,4 +1,5 @@
-gamepad_set_axis_deadzone(0,global.GP_DEADZONE);
+var minDeadzone = min(global.GP_DEADZONE_LEFT, global.GP_DEADZONE_RIGHT);
+gamepad_set_axis_deadzone(0,minDeadzone);
 
 #region Gamepad
 
@@ -11,6 +12,18 @@ axisLeftV = 0;
 //Right stick axis
 axisRightH = 0;
 axisRightV = 0;
+
+//Left stick
+leftStickLeft = 0;
+leftStickRight = 0;
+leftStickUp = 0;
+leftStickDown = 0;
+
+//Right stick
+rightStickLeft = 0;
+rightStickRight = 0;
+rightStickUp = 0;
+rightStickDown = 0;
 
 #endregion
 

@@ -10,6 +10,18 @@ axisLeftV = gamepad_axis_value(0,gp_axislv);
 axisRightH = gamepad_axis_value(0,gp_axisrh);
 axisRightV = gamepad_axis_value(0,gp_axisrv);
 
+//Left stick
+leftStickLeft = (axisLeftH <= -global.GP_DEADZONE_LEFT);
+leftStickRight = (axisLeftH >= global.GP_DEADZONE_LEFT);
+leftStickUp = (axisLeftV >= global.GP_DEADZONE_LEFT);
+leftStickDown = (axisLeftV <= -global.GP_DEADZONE_LEFT);
+
+//Right stick
+rightStickLeft = (axisRightH <= -global.GP_DEADZONE_RIGHT);
+rightStickRight = (axisRightH >= global.GP_DEADZONE_RIGHT);
+rightStickUp = (axisRightV >= global.GP_DEADZONE_RIGHT);
+rightStickDown = (axisRightV <= -global.GP_DEADZONE_RIGHT);
+
 #endregion
 
 /*

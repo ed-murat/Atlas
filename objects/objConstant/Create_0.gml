@@ -12,4 +12,5 @@ global.WINDOW_WIDTH = window_get_width();
 global.WINDOW_HEIGHT = window_get_height();
 
 //Gamepad
-global.GP_DEADZONE = 0.2;
+global.GP_DEADZONE_LEFT = 0.1;
+global.GP_DEADZONE_RIGHT = 0.1;

@@ -8,7 +8,7 @@ if(objControl.pressPadUp) {
 	selection -= 1;
 }
 
-selection = abs(selection % 2);
+selection = abs(selection % 3);
 
 #endregion
 
@@ -17,9 +17,12 @@ selection = abs(selection % 2);
 if(objControl.pressA) {
 	switch(selection) {
 		case 0:
-			room_goto_next();
+			room_goto(asset_get_index("roomCharacterTest"));
 			break;
 		case 1:
+			room_goto(asset_get_index("roomTest"));
+			break;
+		case 2:
 			game_end();
 			break;
 	}

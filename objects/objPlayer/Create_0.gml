@@ -4,8 +4,8 @@
 hdir = 0;
 vdir = 0;
 //Speed
-hspd = 12;
-vspd = 32;
+hspd = 10;
+vspd = 30;
 //Movement (direction x speed)
 hmov = 0;
 vmov = 0;

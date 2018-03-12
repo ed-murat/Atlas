@@ -1,6 +1,6 @@
 #region Inputs react
 
-hdir = inputRight - inputLeft;
+hdir = objControl.leftStickRight - objControl.leftStickLeft;
 hmov = hdir * hspd;
 
 #endregion
@@ -18,14 +18,14 @@ else
 }
 
 //Jump up speed
-if (inputUp) && (jump > 0)
+if (objControl.pressA) && (jump > 0)
 {
 	jump -= 1;
 	vmov = -vspd;
 }
 
 //Jump down speed
-if (vmov < 0) && (!inputUpHeld) vmov = max(vmov,-vspd/4);
+if (vmov < 0) && (!objControl.downA) vmov = max(vmov,-vspd/4);
 
 #endregion
 
@@ -38,9 +38,9 @@ if (vmov < 40) vmov += grav;
 #region Collsions
 
 //Horizontal collisions
-if(place_meeting(x+hmov,y,obj_foreground))
+if(place_meeting(x+hmov,y,objCollision))
 {
-	while(!place_meeting(x+sign(hmov),y,obj_foreground))
+	while(!place_meeting(x+sign(hmov),y,objCollision))
 	{
 		x = x + sign(hmov)
 	}
@@ -48,9 +48,9 @@ if(place_meeting(x+hmov,y,obj_foreground))
 }
 
 //Vertical collisions
-if(place_meeting(x,y+vmov,obj_foreground))
+if(place_meeting(x,y+vmov,objCollision))
 {
-	while(!place_meeting(x,y+sign(vmov),obj_foreground))
+	while(!place_meeting(x,y+sign(vmov),objCollision))
 	{
 		y = y + sign(vmov)
 	}
