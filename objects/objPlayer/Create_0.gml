@@ -4,8 +4,8 @@
 hdir = 0;
 vdir = 0;
 //Speed
-hspd = 10;
-vspd = 30;
+hspd = 35;
+vspd = 125;
 //Movement (direction x speed)
 hmov = 0;
 vmov = 0;
@@ -16,7 +16,7 @@ vmov = 0;
 
 //Jumps
 jump = 0;
-maxJump = 1;
-grav = 3;
+maxJump = 5;
+grav = 10;
 
 #endregion
